@@ -1,0 +1,146 @@
+# 📄 MediaInvoices — Intelligent Invoice Management & Divalto ERP Synchronization
+
+## 📌 Project Overview
+
+MediaInvoices is an intelligent invoice management platform designed to digitize and automate supplier invoice processing. It combines OCR technology, Artificial Intelligence (AI), an interactive chatbot, and ERP integration to simplify invoice management, improve data accuracy, and streamline business workflows.
+
+The platform allows users to upload invoices, automatically extract relevant information, analyze invoice conformity, validate or reject documents, and synchronize validated invoices with the Divalto ERP system.
+
+The solution provides a centralized environment for invoice processing, real-time monitoring, and intelligent assistance, helping organizations reduce manual operations and improve operational efficiency.
+
+## ✨ Key Features
+
+### 📑 1. Intelligent Invoice Management
+
+- Upload supplier invoices in PDF and image formats.
+- Import documents using different supported input methods.
+- Extract invoice information automatically using Optical Character Recognition (OCR).
+- Analyze invoice data using AI-assisted processing.
+- Review and edit extracted information before validation.
+- Validate or reject invoices with a rejection reason.
+- Track invoice processing statuses throughout the workflow.
+- Maintain a centralized history of invoice operations.
+
+### 🔄 2. Divalto ERP Integration & Synchronization
+
+The platform integrates with the Divalto ERP system to streamline the transfer of invoice information between the invoice management application and the enterprise resource planning environment.
+
+**Main capabilities:**
+- Synchronize validated invoices with Divalto.
+- Automate the transfer of invoice data through the synchronization workflow.
+- Track invoice synchronization status.
+- Identify invoices awaiting synchronization.
+- Monitor synchronization results and detect potential errors.
+- Maintain visibility into invoice processing and ERP integration.
+
+This integration helps reduce repetitive data entry and supports consistency between the invoice management platform and the ERP system.
+
+### 🤖 3. AI-Powered Chatbot
+
+The integrated AI chatbot provides users with conversational assistance related to invoice management.
+
+**Key capabilities:**
+- Answer questions about invoice processing and application features.
+- Help users understand invoice statuses and validation workflows.
+- Retrieve relevant information from the application's available knowledge sources.
+- Provide contextual responses using Retrieval-Augmented Generation (RAG).
+- Use semantic similarity to identify information relevant to a user's question.
+- Guide users through invoice management operations.
+
+The chatbot combines language-model capabilities with contextual information retrieval to provide more relevant answers based on the application's available information.
+
+### 📊 4. Interactive Dashboard & Analytics
+
+The dashboard provides a centralized overview of invoice processing activities and helps users monitor the application's operational status.
+
+**Key capabilities:**
+- Display key invoice statistics and indicators.
+- Monitor the total number of invoices processed.
+- Track invoices awaiting validation.
+- Visualize validated, rejected, and synchronized invoices.
+- Monitor invoice processing statuses.
+- Provide a consolidated view of invoice management activities.
+- Help users identify pending tasks and follow the progress of invoice processing.
+
+The dashboard improves visibility into invoice workflows and supports faster operational monitoring and decision-making.
+
+### 🔔 5. Notifications & Workflow Monitoring
+
+- Notify users about relevant invoice-related events.
+- Provide real-time notifications using SignalR.
+- Keep users informed about changes in invoice processing status.
+- Improve visibility into pending actions and workflow progress.
+
+## 🛠️ Technology Stack
+
+**Frontend**
+- Angular
+- TypeScript
+- HTML5 and CSS3
+
+**Backend**
+- ASP.NET Core / .NET
+- Entity Framework Core
+- RESTful APIs
+- JWT Authentication
+- Role-Based Access Control
+
+**Database**
+- Microsoft SQL Server
+
+**Artificial Intelligence & Document Processing**
+- OCR-based invoice text extraction
+- Tesseract OCR
+- OpenCV
+- LangGraph-based AI workflow orchestration
+- Claude for AI-assisted anomaly detection
+- Retrieval-Augmented Generation (RAG)
+- Embeddings and cosine similarity for semantic retrieval
+
+**Real-Time Communication**
+- SignalR
+
+**ERP Integration**
+- Divalto ERP synchronization
+
+## 🔄 Invoice Processing Workflow
+
+1. **Document Upload:** The user imports a supplier invoice.
+2. **OCR Processing:** Text and relevant information are extracted from the document.
+3. **AI Analysis:** The system analyzes the extracted information and assists with conformity checks and anomaly detection.
+4. **Information Review:** The user reviews and edits the extracted invoice data when necessary.
+5. **Human Validation:** The user validates or rejects the invoice and can provide a rejection reason.
+6. **ERP Synchronization:** Validated invoices are transferred to Divalto through the synchronization workflow.
+7. **Status Monitoring:** The dashboard and notifications help users follow invoice processing and synchronization progress.
+
+## 🎯 Project Objectives
+
+- Digitize supplier invoice processing.
+- Reduce repetitive manual data entry.
+- Improve invoice data extraction and review.
+- Support invoice conformity analysis through AI.
+- Facilitate communication between users and the application through an intelligent chatbot.
+- Improve operational visibility through dashboards and notifications.
+- Streamline invoice data synchronization with Divalto ERP.
+
+## 👩‍💻 My Contribution
+
+As a Software Engineering Intern at MediaSoft, I contributed to the development of the invoice management platform, including:
+
+- Developing frontend interfaces with Angular.
+- Implementing backend functionality using .NET and Entity Framework Core.
+- Working with SQL Server for data persistence.
+- Integrating OCR-based document processing.
+- Implementing AI-assisted invoice analysis workflows.
+- Developing the AI-powered chatbot using a RAG approach.
+- Contributing to Divalto ERP synchronization.
+- Implementing authentication and role-based access control.
+- Integrating real-time notifications using SignalR.
+
+## 📸 Screenshots & Demo
+
+Screenshots and a demonstration video can be added here to showcase the invoice management interface, AI chatbot, dashboard, and Divalto synchronization workflow.
+
+## 🔐 Security & Confidentiality
+
+This project was developed in a professional environment. Any public demonstration should exclude confidential company information, production credentials, private business data, and proprietary source code that is not authorized for publication.
